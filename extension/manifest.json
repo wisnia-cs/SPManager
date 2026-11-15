@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SPManager Browser Scanner",
+  "version": "1.0",
+  "description": "Scans login forms, suggests strong passwords, and saves credentials to the encrypted SPManager desktop vault.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:50505/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scanner.js"]
+    }
+  ]
+}
