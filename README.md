@@ -39,10 +39,10 @@ pip install -r requirements.txt
 3. **Run the desktop application:**
 
 ```bash
-python vault_app.py
+python SPManager.py
 ```
 
-*(Replace `vault_app.py` with your main script filename if renamed).*
+*(Replace `SPManager.py` with your main script filename if renamed).*
 
 ---
 
